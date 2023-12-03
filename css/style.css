@@ -17,11 +17,13 @@
 }
 
 img:hover {
-    filter: opacity(25%);
+    transform: scale(1.1);
+    opacity: 0.7;
 }
 
 .logo:hover {
-    filter: none;
+    transform: none;
+    opacity: 1;
 }
 
 ul {
@@ -97,8 +99,8 @@ a {
 .menu__link:hover {
     color: #7E7E82;
     text-shadow: 
-    1px 1px 1px #7a1131,
-    2px 2px 2px #FF3E79;
+    1px 1px 1px #c2c1c1,
+    2px 2px 2px #d1cfcf;
 }
 
 .footer__link {
